@@ -9,6 +9,8 @@ use sdl2::rect::Rect;
 use sdl2::render::TextureQuery;
 use sdl2::pixels::Color;
 
+mod consts;
+
 static SCREEN_WIDTH : u32 = 800;
 static SCREEN_HEIGHT : u32 = 600;
 
@@ -58,7 +60,7 @@ fn run(font_path: &Path) {
     let texture_creator = canvas.texture_creator();
 
     // Load a font
-    let mut font = ttf_context.load_font(font_path, 128).unwrap();
+    let mut font = ttf_context.load_font(font_path, consts::DEFAULT_FONT_SIZE).unwrap();
     font.set_style(sdl2::ttf::STYLE_BOLD);
 
     // render a surface, and convert it to a texture bound to the canvas
@@ -90,14 +92,11 @@ fn run(font_path: &Path) {
 }
 
 fn main() {
-    let args: Vec<_> = env::args().collect();
 
     println!("linked sdl2_ttf: {}", sdl2::ttf::get_linked_version());
 
-    if args.len() < 2 {
-        println!("Usage: ./demo font.[ttf|ttc|fon]")
-    } else {
-        let path: &Path = Path::new(&args[1]);
-        run(path);
-    }
+
+    let path: &Path = Path::new(consts::UBUNTU_DEFAULT_FONT);
+    run(path);
+
 }
