@@ -1,6 +1,8 @@
-Intent of Licensing
+Intent of Licencing
 
-The aim of the licensing scheme is to enable worker owned cooperatives to use the source code to whatever ends they need, and to ensure that they have advantage over traditional businesses. It is believed that worker owned cooperatives inherently contribute to the quality of the commons by the nature of the profits of the cooperative being shared amongst the workers. The latter statement is enforced by the peer-production licence.
+The aim of the licencing scheme is to enable worker owned cooperatives to use the source code to whatever ends they need, and to ensure that they have advantage over traditional businesses. It is believed that worker owned cooperatives inherently contribute to the quality of the commons by the nature of the profits of the cooperative being shared amongst the workers. The latter statement is enforced by the peer-production licence.
+
+Generally there is a desire that privately owned companies who stand to gain from this source code should make a contribution either to the commons through the terms of the GNU Affero Licence or by supporting the co-op maintaining this repo.
 
 However, in order to have it actually be a part of the commons, another option is granted: the GNU Affero Licence. This means that people can use the source as much as they like, but if they modify it and put it 'in the cloud' (which is defined by the license as making it accessible over a network) then they must contribute back to the source code base. This is the strictest form of the GPL and many businesses find that the terms are too stringent for their operations.
 
