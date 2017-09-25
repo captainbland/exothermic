@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["jaron"]
 license = " AGPL-3.0"
 description = "WIP SDL based GUI library for rust"
-
+repository = "https://github.com/jshulver/exothermic"
 [dependencies]
 xml-rs = "0.6.0"
 
