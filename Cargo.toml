@@ -2,7 +2,7 @@
 name = "exothermic"
 version = "0.1.0"
 authors = ["jaron"]
-licence = " AGPL-3.0"
+license = " AGPL-3.0"
 description = "WIP SDL based GUI library for rust"
 
 [dependencies]
