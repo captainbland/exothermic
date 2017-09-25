@@ -1,6 +1,5 @@
 extern crate sdl2;
-
-use std::env;
+extern crate xml;
 use std::path::Path;
 
 use sdl2::event::Event;
@@ -13,6 +12,7 @@ mod consts;
 
 static SCREEN_WIDTH : u32 = 800;
 static SCREEN_HEIGHT : u32 = 600;
+
 
 // handle the annoying Rect i32
 macro_rules! rect(
